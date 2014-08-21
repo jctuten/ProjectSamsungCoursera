@@ -28,7 +28,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 - Import the raw training and test data sets into data frames in R and combine them into one
 - Import the training and test label data sets into data frames in R and combine them into one
-- Append the labels to the raw data sets
+- Merges the combined label data into the combined raw data to create a combined data set
+- Append the labels to the combined data
 - Import the list of features and add it to the combined data set as column headings
 - Import the labels for the activities and replace the activity IDs with these descriptive lables in the combined data set
 - Filter the feature columns to a subset of the full list, including only the mean and standard deviation features
