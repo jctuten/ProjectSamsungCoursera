@@ -47,3 +47,6 @@ names(tidy_data)<-gsub("Freq", "Frequency", names(tidy_data));names(tidy_data)<-
 names(tidy_data)<-gsub("tB", "TimeB", names(tidy_data));names(tidy_data)<-gsub("fB", "FrequencyB", names(tidy_data))
 names(tidy_data)<-gsub("Mag", "Magnitude", names(tidy_data));names(tidy_data)<-gsub("mean", "Mean", names(tidy_data))
 names(tidy_data)<-gsub("angle", "Angle", names(tidy_data));names(tidy_data)<-gsub("gravity", "Gravity", names(tidy_data))
+
+##Finally the data set is exported into the working directory as a space delimited text file named 'tidy_data'
+write.table(tidy_data,file="tidy_data.txt",row.names=FALSE)
