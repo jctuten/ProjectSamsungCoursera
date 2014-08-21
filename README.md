@@ -1,4 +1,4 @@
-##ProjectSamsungCoursera
+#ProjectSamsungCoursera
 =====================
 This repo contains a single R script 'run_analysis.R' written as a project for the Coursera 'Getting and Cleaning Data' course.
 
@@ -6,7 +6,7 @@ The script assumes that there is a folder/directory called 'UCI HAR Dataset' in 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-#The script imports and manipulates the following files from the above mentioned directory:
+###The script imports and manipulates the following files from the above mentioned directory:
 
 - 'features_info.txt': information about the variables used on the feature vector.
 
@@ -24,7 +24,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-#The script runs through a series of steps to:
+###The script runs through a series of steps to:
 
 - Import the raw training and test data sets into data frames in R and combine them into one
 - Import the training and test label data sets into data frames in R and combine them into one
