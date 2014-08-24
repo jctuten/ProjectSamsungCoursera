@@ -1,6 +1,6 @@
 #ProjectSamsungCoursera
 =====================
-This repo contains a single R script 'run_analysis.R' written as a project for the Coursera 'Getting and Cleaning Data' course.
+This repo contains a single R script 'run_analysis.R' written as a project for the Coursera 'Getting and Cleaning Data' course. It also contains a code book in rich text format listing and describing the fields in the data set created by that script.
 
 The script assumes that there is a folder/directory called 'UCI HAR Dataset' in the user's working directory containing the file structure and contents downloaded from the following location provided by the course tutors:
 
